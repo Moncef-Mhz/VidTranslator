@@ -11,6 +11,25 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        warning: "var(--warning)",
+      },
+      backgroundColor: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        warning: "var(--warning)",
+      },
+      backgroundImage: {
+        "dots-pattern": "url('/darkdots.png')",
+      },
+      boxShadow: {
+        ml: "2px -10px 16px #fff",
+      },
+      dropShadow: {
+        ml: "2px -10px 16px #fff",
       },
     },
   },
